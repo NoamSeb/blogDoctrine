@@ -1,0 +1,102 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allArticles {
+    display: flex;
+}
+
+.article {
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: none;
+    padding: 2vw;
+    width: fit-content;
+    margin-right: 1vw;
+}
+
+nav {
+    width: 100vw;
+}
+
+nav ul {
+    float: left;
+}
+
+.backhome {
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 10px;
+}
+
+.create {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.connect {
+    background-color: white;
+    border: black solid 1px;
+    color: black;
+    transition-property: background-color border color;
+    transition-duration: 0.5s;
+}
+
+.connect:hover {
+    background-color: deepskyblue;
+    border: white solid 1px;
+    color: white;
+    transition-property: background-color border color;
+    transition-duration: 0.5s;
+}
+
+.create {
+    background-color: black;
+    border: white solid 1px;
+    color: white;
+    transition-property: background-color border color;
+    transition-duration: 0.5s;
+}
+
+.create:hover {
+    background-color: blue;
+    /* border: black solid 1px; */
+    color: whiote;
+    transition-property: background-color border color;
+    transition-duration: 0.5s;
+}
+
+.articleContent {
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+
+.commentaire {
+    border: 1px black solid;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1vw;
+    margin: auto;
+}
